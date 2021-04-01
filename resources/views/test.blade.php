@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>検証用</title>
+    </head>
+    <body>
+        <h1>POST結果</h1>
+        Date:{{$date}}<br>
+        Time:{{$time}}<br>
+        DateTime:{{$datetime}}
+    </body>
+</html>

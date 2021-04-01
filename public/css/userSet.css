@@ -1,0 +1,23 @@
+table#allHabbitTable{
+    text-align: center;
+    border: black 1px solid;
+    margin: 0 auto;
+}
+table#allHabbitTable>caption{
+    font-size: 20pt;
+    color: lightseagreen;
+}
+table#allHabbitTable td{
+    padding: 0 10px;
+}
+/* データがないときの表示 */
+p#noDataTitle{
+    font-size: 20pt;
+    color: lightseagreen;
+    text-align: center;
+}
+p#noData{
+    color: red;
+    text-align: center;
+
+}

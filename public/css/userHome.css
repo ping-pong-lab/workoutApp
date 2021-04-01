@@ -1,0 +1,96 @@
+/* lightseagreen */
+hr.TaskLabel {
+  height: 0;
+  margin: 1em;
+  padding: 0;
+  border: 0;
+
+  border-top: 1px solid #ccc;
+  height: 1em;
+  text-align: center;
+  overflow: visible;
+}
+hr.TaskLabel:after {
+    content: attr(data-symbol);
+    background: white;
+    color: #ccc;
+    display: inline-block;
+    height: 2em;
+    line-height: 2em;
+    position: relative;
+    top: -1em;
+    padding: 0 1em;
+}
+.recordButton {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bold;
+    background-image: linear-gradient(#fed6e3 0%, lightseagreen 100%);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+  }
+.recordButton:active {
+    box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.32);
+    background-image: linear-gradient(#fed6e3 0%, #ffcfcf 100%);
+}
+.record{ display: inline-block; margin: 1% 1%;}
+.recordFrame{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+}
+form#addRecordForm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 100;
+    background: white;
+}
+textarea{font-family: "メイリオ";}
+table#addRecordTable { text-align: center; margin: 7% auto;}
+table#addRecordTable th{ white-space: nowrap; vertical-align: top;}
+select{ width: 100%;}
+#addRecordButton>span { font-size: 80pt; font-family: fantasy;}
+.ErrMsg {font-size: 10pt; color: red;}
+/* 吹き出し */
+.infoWeek { 
+    font-size: 12px;
+    font-weight: bold;
+    margin: -15% 8% 0;
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    color: #FFF;
+    background-color: mediumseagreen;
+    border-radius: 5px;
+}
+.infoWeek:before {
+    content: '';
+     position: absolute;
+     display: block;
+     z-index: 1;
+     border-style: solid;
+     border-color: mediumseagreen transparent;
+     border-width: 20px 20px 0 0;
+     bottom: -20px;
+     left: 25%;
+     margin-left: -10px;
+}

@@ -1,0 +1,21 @@
+html {font-family: cursive,"メイリオ";}
+body>header {background-color: lightseagreen; position: relative;}
+#appTitle {font-size: 50pt; text-align: center; font-family: cursive,fantasy,Comic,Sans MS; color: white; margin: 0 auto; padding: 2%;}
+hr.noneHR { border: none; margin: 1em;}
+/* ユーザーページボタン */
+#userPage { display: inline-block; padding: 0.2em 0.5em; text-decoration: none; color: white; 
+    transition: .4s; position: absolute; font-size: 10pt; right: 1%; top: 25%;}
+#userPage:hover {color: #000;}
+#userAccount{font-size: 50pt; vertical-align: text-bottom; margin: 0 5px 0 0;}
+/* body */
+.body { margin-left: 15%;}
+/* アイコン */
+span.material-icons{ font-size: 20pt; vertical-align: text-bottom; margin: 0 5px 0 0;}
+
+/* ユーザー情報ページ */
+body>section{ line-height: 30pt;}
+body>section#backHome>ul{display: block; float: left; padding: 0px; list-style: none; overflow: hidden; width: 15%;
+    background: #fff; border: lightseagreen 0px solid; border-radius: 50%;font-size: 15pt; font-family: cursive,fantasy,Comic,Sans MS;}
+body>section#backHome>ul>li>a{ display: block; font-size: 14pt; color: lightseagreen; text-decoration: none; padding: 7%;}
+body>section#backHome>ul>li>a:hover {background-color: lightseagreen; color: #fff;}
+body>section#backHome>ul>li>a:active {background-color: lightseagreen; color: #fff;}

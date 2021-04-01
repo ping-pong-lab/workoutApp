@@ -1,0 +1,22 @@
+/* user情報共通 */
+html {font-family: cursive,"メイリオ"; text-align: center;}
+table#userInfoTable{ border: 2px lightseagreen solid; margin: 0px 30% 0% 25%; float: left; width: 38%}
+table#userInfoTable caption{ font-size: 20pt;}
+table#userInfoTable th, table#userInfoTable td {border: solid lightseagreen 1px; padding: 3px 20px 3px 20px;}
+table#userInfoTable td#lastTd { border: 0px }
+button.userInfoButton { margin: 0px 15px; padding: 10px 15px; border-color: lightseagreen; border-radius: 50%; outline: none;}
+button.userInfoButton:hover{ background: lightseagreen;}
+button.userInfoButton:active{ border-bottom: none; border-right: none; border: 0px;}
+.ErrMsg{ color: red; font-size: 10pt;}
+/* Page用 */
+table#anotherTable {
+    position: absolute;
+    right: 0;
+    margin: 0px 20%;
+    top: 30%; height: 35%;
+}
+/* updatePage用 */
+
+
+/* deletePage用 */
+div#delComment{ clear: both; margin: 0px 30% 0% 25%; width: 38%}

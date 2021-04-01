@@ -1,0 +1,46 @@
+/* 共通・ログインページ------------------- */
+html {font-family: "メイリオ","UD デジタル 教科書体 NK-R","UD Digi Kyokasho NK-R";}
+#appTitle {font-size: 50pt; text-align: center; font-family: cursive,fantasy,Comic,Sans MS; color: lightseagreen;}
+#formTitle {font-size: 15pt; text-align: center; color: black; font-weight: bold;}
+.aTag {font-size: 10pt; color: lightseagreen; font-weight: normal;}
+table {font-size: 15pt; text-align: center; color: black; margin: 0 auto;}
+input[name="submit"] ,.submit {margin: 0 auto; background-color: white; font-size: 15pt; border-radius: 5px; font-family: "メイリオ","UD デジタル 教科書体 NK-R","UD Digi Kyokasho NK-R"; margin-top: 15px;}
+.submit:hover, input[name="submit"]:hover {background-color: lightseagreen;}
+#loginCheck, #mailCheck {font-size: 15pt; text-align: center; color: red; margin-top: 20px;}
+form {text-align: center;}
+caption { white-space: nowrap;}
+.body{text-align: center;}
+
+/* signupPage---------------------------- */
+#suForm {width: 100%; table-layout: fixed;}
+.error-info,#levelLabel,.ErrMsg {font-size: 10pt; color: red; text-align: right; position: relative; }
+#signUpForm tr td:nth-of-type(1){ background:lightseagreen; padding: 0 5%; width: 250px;}
+#signUpForm tr td:nth-of-type(2){ text-align: left; white-space: nowrap;}
+#signUpForm tr td:nth-of-type(3){ position: relative; text-align: left;}
+#signUpForm tr:nth-of-type(4) td:nth-of-type(1){ background:white; padding-top: 2%; font-size: 15pt;}
+.formParts{ width: 200px;}
+.formParts-50 { width: 150px; margin-right: 5px;}
+
+
+/* infoマークと吹き出し */
+.info::before{ content: "i"; font-size: 30%; margin-right: 5px; display: inline-block; vertical-align: middle;
+    width: 1.5em;height: 1.5em; text-align: center; line-height: 1.2; border-radius: 50%; background: white;
+    color: black; font-weight: bold; border: black solid 0.5px;
+}
+.infTip { width:130px; padding:10px; font-size:12px; margin:-30px 0 0; background-color:#666; color:#fff;
+    position:absolute; right:-160px; top: 50%;
+}
+.infTip:before { right: 100%; top: 50%; border: solid transparent; content: " "; height: 0; width: 0;
+    position: absolute; border-color: rgba(102, 102, 102, 0); border-right-color: #5e5e5e; border-width: 8px; margin-top: -8px;
+}
+
+/* forgetPassPage-------------------------- */
+#mailForm input[name="mailAd"] { margin: 5% auto;}
+
+/* reregistration-------------------------- */
+#regiForm caption{ font-size: 10pt; margin:10px auto;}
+#regiForm th{ text-align: left; vertical-align: sub;}
+#regiForm { padding: 1% 2% 1% 2%; border: double 5px lightseagreen;}
+#regiForm td{ text-align: left; white-space: nowrap;}
+#regiForm tr:last-child td{ text-align: center;}
+input[readonly] { cursor: unset; border: none;}

@@ -1,0 +1,14 @@
+/* Completed装飾 */
+#compLabel{ 
+    display: inline-block; position: relative; height: 60px; line-height: 60px; text-align: center; padding: 7px 0;
+    font-size: 18px; background: #acd879; color: #FFF; box-sizing: border-box; margin: 2% auto;}
+#compLabel:before, #compLabel:after{
+    position: absolute; content: ''; width: 0px; height: 0px; z-index: 1;}
+#compLabel:before { /*左の山形*/
+    top: 0; left: 0; border-width: 30px 0px 30px 15px; border-color: transparent transparent transparent #fff; border-style: solid; }
+#compLabel:after { /*右の山形*/
+    top: 0; right: 0; border-width: 30px 15px 30px 0px; border-color: transparent #fff transparent transparent; border-style: solid; }
+#comp {
+    margin: 0; padding: 0 50px; border-top: dashed 2px rgba(255, 255, 255, 0.5); border-bottom: dashed 2px rgba(255, 255, 255, 0.5); line-height: 42px;}
+p#MSG {
+    color: #acd879; font-weight: bold; margin: -10px 0 30px 0;}
